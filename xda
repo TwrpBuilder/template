@@ -1,0 +1,64 @@
+[CENTER][IMG="logo"]https://i.imgur.com/8IbdLhE.png[/IMG][/CENTER]
+
+[CODE]#include <std_disclaimer.h>
+/*
+* We are not responsible for bricked devices, dead SD cards,
+* thermonuclear war, or you getting fired because the alarm app failed. Please
+* do some research if you have any concerns about features included in this APP
+* before installing it! YOU are choosing to make these modifications, and if
+* you point the finger at us for messing up your device, We will laugh at you.
+*/[/CODE]
+
+[CENTER][COLOR="DarkSlateGrey"][SIZE="4"][B]TWRP Recovery for $brand $device by TWRPBuilder Team[/B][/SIZE][/COLOR] [/CENTER]
+
+[SIZE="4"][COLOR="DarkSlateGrey"][URL="https://forum.xda-developers.com/android/apps-games/twrpbuilder-t3744253"]TWRP Builder[/URL][/COLOR] is an open source project that allows you to request TWRP for your unsupported devices.
+All it needs is some basic info about your phone, and through our app, it sends us the information to use for creating the TWRP for your device.[/SIZE]
+
+[COLOR="DarkSlateGrey"][SIZE="4"][B]What is TWRP?[/B][/SIZE][/COLOR]
+[URL="http://twrp.me"]Team Win Recovery Project[/URL] 3.x, or twrp3 for short, is a custom recovery built with ease of use and customization in mind. Its a fully touch driven user interface no more volume rocker or power buttons to mash. The GUI is also fully XML driven and completely theme-able. You can change just about every aspect of the look and feel.
+In short: It allows you to back up and restore your data, flash custom ROMs to your device, repair broken file systems, and root your device.
+
+[COLOR="DarkSlateGrey"][B]CHANGELOG for 3.2.1-0:[/B][/COLOR]
+[HIDE]* minui fixes (cryptomilk)
+* Better android-8.0 compatibility in ROM trees (Dees_Troy)
+* Fix missing library in android-8.0 (nkk71)
+* Fix inconsistent SDCard naming (DevUt)
+* Default to TWRP restore instead of adb backup restore to fix restore on fresh TWRP boot (jlask)[/HIDE]
+
+[COLOR="DarkSlateGrey"][SIZE="4"][B]Downloads:[/B][/SIZE][/COLOR]
+[B][SIZE="3"]- Recovery:[/SIZE][/B] 
+[SIZE="3"][CENTER][URL="$link"]Download Here[/URL][/CENTER][/SIZE]
+[B][SIZE="3"]- App:[/SIZE][/B] 
+[SIZE="3"][CENTER][URL="https://twrpbuilder.github.io/#article_download"]Download Here[/URL][/CENTER][/SIZE]
+
+[COLOR="DarkSlateGrey"][SIZE="4"][B]INSTRUCTIONS:[/B][/SIZE][/COLOR]
+
+TWRP install (requires TWRP 2.8.4 or higher already installed):
+- Reboot to TWRP
+- Hit Install and tap the "Images..." button in the lower right
+- Browse to the location of the TWRP image on your device and select it
+- Select recovery from the partition list and swipe to flash
+
+Or use fastboot [B]"bootloader must be unlocked!"[/B]
+[CODE]adb reboot bootloader
+fastboot flash recovery recovery.img[/CODE]
+
+[COLOR="DarkSlateGrey"][SIZE="4"][B]Notes:[/B][/SIZE][/COLOR]
+[LIST]
+[*]This project is not supported or affiliated in any way with the original TWRP (TeamWin Recovery Project).
+[*] We are an app that creates the TWRP Recovery for you. The original project is here: [URL="https://twrp.me/"][url]https://twrp.me/[/url][/URL]
+[/LIST]
+
+[COLOR="DarkSlateGrey"][SIZE="4"][B]Social Channels:[/B][/SIZE][/COLOR]
+[B][COLOR="red"]Join our telegram channel and support group for any query [/COLOR][/B]
+Channel: [URL="https://t.me/twrpbuilder"][url]https://t.me/twrpbuilder[/url][/URL]
+Group: [URL="https://t.me/TWBuilder"]https://t.me/TWBuilder[/URL]
+
+[COLOR="DarkSlateGrey"][SIZE="4"][B]Special Thanks:[/B][/SIZE][/COLOR]
+[MENTION=7133498]androidlover5842[/MENTION]
+[MENTION=5521960]Theprofessionals[/MENTION]
+[MENTION=6084385]yshalsager[/MENTION]
+[MENTION=5809770]berkantkz[/MENTION]
+[MENTION=5515628]kirito9[/MENTION]
+[MENTION=6887229]AhmedHadyHassaan[/MENTION]
+[MENTION=7142730]Sheref[/MENTION]
