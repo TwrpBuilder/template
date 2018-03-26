@@ -1,4 +1,4 @@
-# TWRPBuiler XDA template generator
+# TWRPBuilder XDA template generator
 
 ### Usage:
 ```
