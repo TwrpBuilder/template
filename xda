@@ -9,7 +9,7 @@
 * you point the finger at us for messing up your device, We will laugh at you.
 */[/CODE]
 
-[CENTER][COLOR="DarkSlateGrey"][SIZE="4"][B]TWRP Recovery for $brand $device by TWRPBuilder Team[/B][/SIZE][/COLOR] [/CENTER]
+[CENTER][COLOR="DarkSlateGrey"][SIZE="4"][B]TWRP Recovery for #brand #device by TWRPBuilder Team[/B][/SIZE][/COLOR] [/CENTER]
 
 [SIZE="4"][COLOR="DarkSlateGrey"][URL="https://forum.xda-developers.com/android/apps-games/twrpbuilder-t3744253"]TWRP Builder[/URL][/COLOR] is an open source project that allows you to request TWRP for your unsupported devices.
 All it needs is some basic info about your phone, and through our app, it sends us the information to use for creating the TWRP for your device.[/SIZE]
@@ -27,7 +27,7 @@ In short: It allows you to back up and restore your data, flash custom ROMs to y
 
 [COLOR="DarkSlateGrey"][SIZE="4"][B]Downloads:[/B][/SIZE][/COLOR]
 [B][SIZE="3"]- Recovery:[/SIZE][/B] 
-[SIZE="3"][CENTER][URL="$link"]Download Here[/URL][/CENTER][/SIZE]
+[SIZE="3"][CENTER][URL="#link"]Download Here[/URL][/CENTER][/SIZE]
 [B][SIZE="3"]- App:[/SIZE][/B] 
 [SIZE="3"][CENTER][URL="https://twrpbuilder.github.io/#article_download"]Download Here[/URL][/CENTER][/SIZE]
 

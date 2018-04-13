@@ -15,7 +15,7 @@ exit
 fi
 
 cp xda tmp.txt
-sed -i -e 's/'"brandname"'/'"$brand"'/g' tmp.txt
-sed -i -e 's/'"devicename"'/'"$name"'/g' tmp.txt
-sed -i -e 's/'"downloadlink"'/'"$link"'/g' tmp.txt
+sed -i -e 's/'"brandname"'/'"#brand"'/g' tmp.txt
+sed -i -e 's/'"devicename"'/'"#name"'/g' tmp.txt
+sed -i -e 's/'"downloadlink"'/'"#link"'/g' tmp.txt
 mv tmp.txt "[RECOVERY][TWRPBuilder] TWRP For $brand $name"

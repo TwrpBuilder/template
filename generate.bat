@@ -14,7 +14,7 @@ if %result% == false (
 )
 
 copy xda tmp.txt
-powershell -Command "(gc tmp.txt) -replace 'brand', '%1' | Out-File tmp.txt"
-powershell -Command "(gc tmp.txt) -replace 'device', '%2' | Out-File tmp.txt"
-powershell -Command "(gc tmp.txt) -replace 'link', '%3' | Out-File tmp.txt"
+powershell -Command "(gc tmp.txt) -replace '#brand', '%1' | Out-File tmp.txt"
+powershell -Command "(gc tmp.txt) -replace '#device', '%2' | Out-File tmp.txt"
+powershell -Command "(gc tmp.txt) -replace '#link', '%3' | Out-File tmp.txt"
 move tmp.txt "[RECOVERY][TWRPBUILDER] TWRP For %1 %2.txt"
